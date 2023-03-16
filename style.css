@@ -13,8 +13,6 @@ body {
   background: -o-linear-gradient(#57e5f1, #5e0af0); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#57e5f1, #5e0af0); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#57e5f1, #5e0af0);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 /* Include the padding and border in an element's total width and height */
@@ -81,6 +79,7 @@ ul li.checked::before {
 }
 h2 {
   text-align: center;
+  padding: 50px;
 }
 /* Style the close button */
 .close {
@@ -101,7 +100,7 @@ h2 {
 }
 /* Style the header */
 .header {
-  background-color: #7c59e6;
+  background-color: transparent;
   padding: 10px 40px;
   width: 50%;
   color: white;
