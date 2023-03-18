@@ -1,3 +1,10 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .header {
+    width: 100%;
+    margin: 0;
+  }
+}
 html{
   width:100%;
   height:100%;
@@ -104,12 +111,16 @@ h2 {
 /* Style the header */
 .header {
   background-color: transparent;
-  padding: 10px 40px;
-  width: 50%;
-  min-width: 50%;
+  /* padding: 10px 40px; */
+  width: auto;
   color: white;
   margin: auto;
+  display: flex;
   text-align: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+    
 }
 
 /* Clear floats after the header */
@@ -125,8 +136,7 @@ input {
   border: none;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
-  width: 75%;
-  min-width: 75%;
+  width: auto;
   padding: 10px;
   float: left;
   font-size: 18px;
@@ -136,8 +146,7 @@ input {
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
-  width: 25%;
-  min-width: 25%;
+  width: auto;
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   color: #feffff;
   float: left;
