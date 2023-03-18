@@ -91,8 +91,10 @@ h2 {
 }
 
 .close:hover {
-  background-color: #656ed8;
+  background-color: #5bb3f0;
   color: white;
+  border-radius: 15px;
+  border:0;
 }
 .todo {
   padding: 120px 300px;
