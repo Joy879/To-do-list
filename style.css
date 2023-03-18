@@ -7,6 +7,7 @@ body {
   padding: 0;
   min-width: 250px;
   min-height: 100%;
+  font-family: "Poppins", "Raleway", "Open-Sans";
   background: linear-gradient(135deg,#57e5f1,#5e0af0);
   background: #57e5f1; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#57e5f1, #5e0af0); /* For Safari 5.1 to 6.0 */
@@ -103,6 +104,7 @@ h2 {
   background-color: transparent;
   padding: 10px 40px;
   width: 50%;
+  min-width: 50%;
   color: white;
   margin: auto;
   text-align: center;
@@ -122,17 +124,20 @@ input {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   width: 75%;
+  min-width: 75%;
   padding: 10px;
   float: left;
   font-size: 16px;
+  font-family: 'Poppins';
 }
 
 /* Style the "Add" button */
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  min-width: 25%;
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  color: #feffff;
   float: left;
   text-align: center;
   font-size: 16px;
@@ -140,6 +145,7 @@ input {
   transition: 0.3s;
   border-top-right-radius:15px;
   border-bottom-right-radius: 15px;
+  margin:0;
 }
 
 .addBtn:hover {
